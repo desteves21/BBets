@@ -49,7 +49,7 @@ Assume we do this 40 times
 ```{r}
 bank = vector("numeric")
 for (i in 1:100){
-  bank[i] = BrLw(35, 2, 637)
+  bank[i] = BrLw(35, 1, 637)
 }
 print(mean(bank))
 hist(bank)
@@ -64,13 +64,10 @@ Average profit = $283
 
 # What are the fair odds? Use manipulation of odds in the function to tune Brownlows earnings to zero. 
 
-
-<!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
-
 ```{r}
 bank = vector("numeric")
 for (i in 1:100){
-  bank[i] = BrLw(35, 10, 637)
+  bank[i] = BrLw(35, 4.5, 637)
 }
 mean = mean(bank)
 print(mean(bank))
@@ -81,7 +78,8 @@ print(lci)
 print(uci)
 ```
 
-
+<!--Decide on your methods:  In this section explain the approach you will take to attack the issue --- how will you decide on a likely estimate of professor Brownlow's earnings or losses after 637 bets. Also explain how you construct a 95% confidence interval about your estimate of his winnings !-->
+The amount of Dr.J has to pay would be $4.50
 
 # What size of class makes the 2:1 bet fair?  Use manipulation of number of Students to tune Brownlows earnings to zero.
 
