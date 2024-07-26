@@ -109,4 +109,7 @@ print(uci)
 
 <!--Discussion and conclusion here.  If professor Brownlow is consistantly making or losing money how could he change his payout so that his profits center on zero?  Also discuss what size his class should be in order to have his current scheme balance at zero profit.!-->
 
-28 people in class then the 2:1 bet is about fair.
+The amount of money would Brownlow be expected to end up with if the bets went as described would be about $228.  
+The fair odds for a bet on a class of 35 people is about $4.50 to make the odds even.    
+The size class would be 28 at a fair 2:1 odds bet.    
+
