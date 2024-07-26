@@ -49,7 +49,7 @@ Assume we do this 40 times
 ```{r}
 bank = vector("numeric")
 for (i in 1:100){
-  bank[i] = BrLw(35, 1, 637)
+  bank[i] = BrLw(35, 2, 637)
 }
 print(mean(bank))
 hist(bank)
